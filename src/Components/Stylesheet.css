@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .bgimage{
+  
+  background-image:url('https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg') ;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 655px;
+    border-radius: 10px;
+    
+
+} */
+.carousel-item{
+  height: 80vh;
+}
+.lucky{
+  border-radius:10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-title{
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.card-img{
+  
+  border-top-left-radius: 10px;
+  margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Hello{
+  border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+  
+   text-align: center;
+}
+.StarFill{
+  
+  color:yellow;
+}
+.StarHalf{
+  
+   color:yellow;
+   
+}
+.heart{
+   padding: 2px;
+  
+   border-radius: 50%;
+  background-color: white;
+color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+}
+.foodCard{
+  
+  border-radius: 20px;
+  margin: 30px;
+  margin-left: 35px;
+}
+.card-body{
+  padding: 10px;
+}
+
+.foodCard{
+	 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+Button{
+  padding: 6px;
+  background-color: #D8BFD8;
+  border-radius: 5px;
+  border: none;
+}
+.link-button{
+  padding: 8px;
+  border-radius: 5px;
+  background-color:#778899;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+}
+.link-button:hover{
+  background-color: lightgray;
+}
+/* .ancortags{
+  background-color: black;
+} */
+
+.youtube{
+font-size: 20px;
+}
+
+@media screen and (max-width:600px) {
+  .lucky{
+    width:200px;
+  }
+
+  .col-md-4{
+    width: auto;
+  }
+}

@@ -1,0 +1,246 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 75px;
+	background-color: #FF6347;
+	color: white;
+	top: 0;
+	position: sticky;
+
+
+}
+
+.logo {
+	font-size: 30px;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	width: 75%;
+}
+
+.nav-links :hover {
+	background-color: lightgrey;
+	color: black;
+}
+
+.home,
+.breakfast,
+.sandwizza,
+.chicken,
+.about {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.mobile-menu-icon {
+	display: none;
+
+}
+
+
+/* Category cards style */
+
+.wrapper {
+	max-height: 250px;
+	overflow-x: auto;
+
+}
+
+
+
+@media screen and (max-width:780px) {
+	.logo {
+		display: flex;
+		position: absolute;
+		top: 15px;
+		left: 35px;
+
+	}
+
+	.nav-links {
+		display: none;
+
+	}
+
+	.nav-links-mobile {
+		position: absolute;
+		display: block;
+		list-style: none;
+		background-color: black;
+		left: 0;
+		top: 75px;
+		transform: all 0.5s ease-out;
+		width: 100%;
+		z-index: 100;
+	}
+
+
+	.home,
+	.breakfast,
+	.sandwizza,
+	.chicken,
+	.about {
+		color: white;
+		text-align: center;
+		padding: 32px;
+		width: 100%;
+		transition: all 0.5s ease;
+
+
+	}
+
+	.mobile-menu-icon {
+		display: block;
+		position: absolute;
+		font-size: 30px;
+		color: #FF6347;
+		background-color: white;
+		border: none;
+		outline: none;
+		top: 15px;
+		right: 25px;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 75px;
+	background-color:yellow;
+	color: white;
+}
+.nav-links{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	width: 75%;
+}
+.home,
+.burger,
+.sandwizza,
+.pizza,
+.about{
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.mobile-menu-icon{
+	display: none;
+}
+	
+
+
+
+
+@media screen and(max-width:780px) {
+	.logo{
+		display: flex;
+		position: absolute;
+		top:15px;
+		left: 35px;
+	}
+
+	.nav-links{
+		display: none;
+	}
+
+	.nav-links-mobile{
+		position: absolute;
+		display: block;
+		list-style: none;
+		background-color: #005469;
+		left: 0;
+		top: 75px;
+		transition: all 0.5s ease-out;
+		width: 100%;
+
+	}
+
+.home,
+.burger,
+.sandwizza,
+.pizza,
+.about{
+color: white;
+text-align: center;
+padding: 32px;
+width: 100%;
+transition: all 0.5s ease;
+}
+.mobile-menu-icon{
+	display: block;
+	position: absolute;
+	font-size: 30px;
+	color: white;
+	background-color: #005469;
+	border: none;
+	outline: none;
+	top: 15px;
+	right: 25px;
+}
+
+} */
