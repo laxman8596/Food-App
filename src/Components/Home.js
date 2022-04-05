@@ -54,7 +54,7 @@ function Home() {
 					setData(res.meals)
 				}
 				else {
-					alert("No data found")
+					alert("No data for selected found")
 				}
 			})
 	}

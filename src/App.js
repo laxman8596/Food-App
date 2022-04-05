@@ -14,7 +14,7 @@ const App = () => {
     <div>
       {/* <BrowserRouter>
         <Navbar />
-
+ 
        
       </BrowserRouter> */}
       <Router>
