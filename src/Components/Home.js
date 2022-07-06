@@ -92,7 +92,7 @@ function Home() {
 									<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 										<div className='col-md-4'>
 
-											<div className='lucky ' style={{ height: '120px', width: '255px', margin: '20px', marginLeft: '75px', border: '1px solid black' }}>
+											<div className='lucky ' style={{ height: '120px', width: '255px', margin: '20px', marginLeft: '75px', border: '1px solid lightgray' }}>
 
 												<div style={{ display: 'flex', justifyContent: 'space-between' }}>
 													<div >	<span><img classname='card-img' src={recipe.strCategoryThumb} height="118px" width="110px"
@@ -101,7 +101,7 @@ function Home() {
 													<div className="Hello" style={{ backgroundColor: '#FF6347', height: "118px" }}>
 														<p class="card-title" style={{ width: '113px', marginBottom: '10px' }}>{recipe.strCategory}</p>
 
-														<Button onClick={() => submitHandler(recipe.strCategory)}>Buy Now</Button>
+														<Button className="visit" onClick={() => submitHandler(recipe.strCategory)}>Visit More</Button>
 
 														<div style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-around' }} >
 															<div><span className='heart'><AiFillHeart /></span></div>
@@ -134,7 +134,7 @@ function Home() {
 				{data !== [] ?
 					data.map(recipe =>
 
-						<Col className='foodCard' style={{}} >
+						<Col className='foodCard'  >
 							<div style={{ maxWidth: '250px', }}>
 								<div>
 									<div>
@@ -147,11 +147,11 @@ function Home() {
 									</div>
 									<div>
 										<div class="card-body" style={{ textAlign: 'center' }}>
-											<h5 class="card-title" style={{ marginBottom: "5px" }}>{recipe.strMeal}</h5>
+											<h5 class="card-title" >{recipe.strMeal}</h5>
 											<p class="card-text"></p>
-											<div className='ancortags' style={{ display: 'flex', justifyContent: 'space-around', margin: '5px' }}>
+											<div className='ancortags' style={{ display: 'flex', justifyContent: 'space-between', }}>
 												< a href={recipe.strSource} target="_blank" rel="noopener noreferrer " > <Button className="link-button" >Read More</Button></a >
-												<a href={recipe.strYoutube} target="_blank" rel="noopener noreferrer "><span style={{ backgroundColor: 'white' }}><AiFillYoutube className='youtube' style={{ color: 'red', padding: '0px', fontSize: '20px' }} /></span></a>
+												<a href={recipe.strYoutube} target="_blank" rel="noopener noreferrer "><AiFillYoutube className='youtube' style={{ color: 'red', fontSize: '30px' }} /></a>
 											</div>
 										</div>
 									</div>
@@ -166,7 +166,6 @@ function Home() {
 				}
 
 			</Container >
-
 
 
 		</>

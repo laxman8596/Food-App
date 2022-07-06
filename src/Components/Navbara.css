@@ -25,12 +25,13 @@
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
-	width: 75%;
+	width: 80%;
 }
 
 .nav-links :hover {
-	background-color: lightgrey;
+	background-color: #ec5731;
 	color: black;
+	border-radius: 15px;
 }
 
 .home,
@@ -100,9 +101,9 @@
 		padding: 32px;
 		width: 100%;
 		transition: all 0.5s ease;
-
-
 	}
+
+
 
 	.mobile-menu-icon {
 		display: block;
@@ -113,9 +114,11 @@
 		border: none;
 		outline: none;
 		top: 15px;
-		right: 25px;
+		right: 20px;
 
 	}
+
+
 }
 
 
